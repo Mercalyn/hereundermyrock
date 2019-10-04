@@ -1,0 +1,4 @@
+
+
+<!img className='cartoon-modal' src={modalInfo.src} alt='image alt' />
+

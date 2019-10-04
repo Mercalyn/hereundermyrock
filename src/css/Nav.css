@@ -1,0 +1,56 @@
+.navlink-button{
+    display: flex;
+}
+
+#brand-logo{
+    height: 240px;
+}
+
+.navbar{
+    background: #eee;
+}
+
+.nav-button-img{
+    height: 55px;
+}
+
+#nav-left-container{
+    display: none;
+    height: 100%;
+    margin: 0px;
+}
+
+
+@media only screen and (min-width : 576px){
+    #nav-left-container{
+        display: flex;
+    }
+    #nav-buttons-top{
+        display: none!important;
+    }
+}
+
+.col{
+   padding: 0px;
+}
+
+#nav-left-col{
+    flex-grow: 0;
+}
+
+.navbar-brand, .navbar{
+    margin:0px;
+    padding:0px;
+}
+
+.navrow,#nav-left-container{
+    padding-right:0px;
+}
+
+.navrow{
+    padding-left: 0px;
+}
+
+.row{
+    margin-right: 0px;
+}

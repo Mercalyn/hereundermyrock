@@ -1,0 +1,75 @@
+h3{
+    font-size: 50px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h5{
+    font-size: 35px;
+}
+
+h3, h4, h5, p{
+    text-align: center;
+}
+
+h3, h4, h5{
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.cartoon-cont{
+    width: 100%;
+    align-self: center;
+}
+
+p{
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+.cartoon-modal{
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+@media only screen and (min-width : 576px){
+    .modal-dialog{
+        max-width: 100%;
+    }
+    .modal{
+        padding: 0px 20px!important;
+    }
+    .modal-body{
+        padding: 16px;
+    }
+}
+
+@media only screen and (max-width : 577px){
+    .modal{
+        padding: 0px 0px!important;
+    }
+    .modal-body{
+        padding: 0px;
+    }
+}
+
+.modal-dialog{
+    margin:0px;
+}
+
+.modal-header{
+    width: 100%;
+}
+
+.modal-body{
+    display: flex;
+}
+
+.modal-title{
+    margin: 0px auto;
+}
+
+.close{
+    margin: -16px -16px -16px -16px!important;
+}
